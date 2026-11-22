@@ -13,7 +13,7 @@
 // Run it the way the grader does (from the repository root):
 //   mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 
-import { copyFileSync, mkdirSync } from 'node:fs';
+import { copyFileSync, mkdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const BOT_DIR = process.env.MAKEFUN_BOT_DIR ?? '/bot';
@@ -25,5 +25,19 @@ try {
   copyFileSync(join(BOT_DIR, 'VIDEO.json'), join(OUTPUT_DIR, 'VIDEO.json'));
 } catch (err) {
   console.error(`VIDEO.json could not be copied from ${BOT_DIR}: ${(err as Error).message}`);
+  process.exit(1);
+}
+
+// Verify the copy: the gate reads the video's address from the output file,
+// so a bad copy must fail loudly instead of passing silently.
+let copied: unknown;
+try {
+  copied = JSON.parse(readFileSync(join(OUTPUT_DIR, 'VIDEO.json'), 'utf8'));
+} catch (err) {
+  console.error(`VIDEO.json in ${OUTPUT_DIR} is not valid JSON: ${(err as Error).message}`);
+  process.exit(1);
+}
+if (typeof copied !== 'object' || copied === null || typeof (copied as { url?: unknown }).url !== 'string' || !(copied as { url: string }).url.startsWith('https://www.tiktok.com/')) {
+  console.error('VIDEO.json in the output dir has no TikTok video URL');
   process.exit(1);
 }
