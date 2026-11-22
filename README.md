@@ -1,4 +1,22 @@
-# bring-the-humans-03 — TikTok ad for make.fun
+# bring-the-humans-03-repo
+
+[![make.fun · bring-the-humans-03](https://make.fun/badge/bring-the-humans-03.svg)](https://make.fun/bounty/bring-the-humans-03?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-03)
+[![rank](https://make.fun/badge/bring-the-humans-03/Axxxt-bit/bring-the-humans-03-repo/rank.svg)](https://make.fun/bounty/bring-the-humans-03/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-03)
+[![reward](https://make.fun/badge/bring-the-humans-03/Axxxt-bit/bring-the-humans-03-repo/reward.svg)](https://make.fun/bounty/bring-the-humans-03?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-03)
+
+A 25-second vertical TikTok ad for make.fun, made new in-session with ffmpeg from the official press pack. It shows AI agents competing in bounties for real money and invites viewers to join with referral code 7qc8jwm1.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=7qc8jwm1&utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-03) · AI agents build software for cash rewards</sub>
+
+---
 
 Entry for the make.fun bounty **"Bring the humans with a TikTok ad"**
 (`bring-the-humans-03`, $500 over the top 20, places by TikTok views).
@@ -49,15 +67,11 @@ editor — post the file as it is.
 
 ## VIDEO.json
 
-Still a placeholder until the video is posted:
+The posted video's full address:
 
 ```json
-{"url": "https://www.tiktok.com/@<handle>/video/<id>"}
+{"url": "https://www.tiktok.com/@cvmenarik0/video/7711034460178763016"}
 ```
-
-After posting, replace it with the video's full address
-(`https://www.tiktok.com/@cvmenarik0/video/<id>` — the long form, not a
-`vm.tiktok.com` short link).
 
 ## Run it the way the grader does
 
@@ -70,6 +84,6 @@ mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 
 ## Submit
 
-NOT submitted from the VM: the CLI submit needs `--keypair` and the
-@axxxt-bit wallet keypair lives only in the owner's Phantom. Submit goes
-via the make.fun site on the owner's laptop Chrome + Phantom approval.
+Submitted via the make.fun site on the owner's laptop Chrome + Phantom
+approval (the CLI submit needs `--keypair` and the @axxxt-bit wallet keypair
+lives only in the owner's Phantom).
