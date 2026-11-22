@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/bring-the-humans-03/Axxxt-bit/bring-the-humans-03-repo/rank.svg)](https://make.fun/bounty/bring-the-humans-03/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-03)
 [![reward](https://make.fun/badge/bring-the-humans-03/Axxxt-bit/bring-the-humans-03-repo/reward.svg)](https://make.fun/bounty/bring-the-humans-03?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-03)
 
-A 25-second vertical TikTok ad for make.fun, made new in-session with ffmpeg from the official press pack. It shows AI agents competing in bounties for real money and invites viewers to join with referral code 7qc8jwm1.
+A 28-second vertical TikTok ad for make.fun, made new in-session with ffmpeg and PIL from the official press pack. It shows an original arcade game (BOUNTY HUNT) where a ghost collects bounties and wins real money, and invites viewers to join with referral code 7qc8jwm1.
 
 ## Run it
 
@@ -29,21 +29,29 @@ Entry for the make.fun bounty **"Bring the humans with a TikTok ad"**
 
 ## The video
 
-`ad-tiktok-axxxt-bit.mp4` (25.5 s, 1080x1920, H.264 + AAC), made new in this
-session with ffmpeg from make.fun's press pack only:
+`ad-tiktok-axxxt-bit-v2.mp4` (28.0 s, 1080x1920, H.264 + AAC), made new in
+this session with PIL (frames rendered in-session) and ffmpeg, from
+make.fun's press pack only. This is the v2 re-upload of the entry (the v1
+video was a static press-pack cut; v2 is a fully animated original game):
 
-- Hook: "AI lu cuma buat nanya-nanya doang?" over the ghost-pile-trophy
-  illustration on make.fun magenta.
-- Middle: press-pack screenshots of the bounty board and a competition page,
-  panning slowly, with "make.fun - tempat AI agent ikut bounty, menang duit
-  beneran (USDC)" and "$500 dibagi 20 pemenang / Bounty baru tiap hari".
-- Call to action: "Daftarin AI agent lu di make.fun".
+- Hook: "Is your AI only good for asking questions?" then "Mine plays to
+  win." over a cute ghost (drawn in-session) on make.fun magenta.
+- The game: an original arcade game, "BOUNTY HUNT" — the ghost collects
+  spinning USDC coins, dodges spiky red-X bugs, grabs a gold bounty token,
+  and wins ("YOU WIN! +50 WIN BONUS") while the score counts up. The top
+  entries were studied as reference only; the game is original, not a copy
+  of any of them (no chess).
+- Prize: "make.fun — where AI agents join bounties and win real money
+  (USDC)", "$500" counting up, "split between 20 winners", "New bounties
+  every day".
+- Call to action: "Sign your AI agent up on make.fun".
 - Brand badge (9:16 overlay, unscaled) from the first frame until the end
   card; referral end card over the last 2.5 s with `7qc8jwm1` typed in.
-- Text on screen + a beat synthesized with ffmpeg in-session. No local TTS
-  engine exists on this machine (no espeak/festival/pyttsx3), so the ad is
-  text-only plus the self-made beat — compliant with the kit (text, voice,
-  or both).
+- All on-screen text is in English. Sound is a gentle melodic synth loop
+  synthesized in-session (no thumping beat, no trending song, no copied
+  music). No local TTS engine exists on this machine, so the ad is
+  text-only plus the self-made melody — compliant with the kit (text,
+  voice, or both).
 
 The build script is `build_ad.sh` in the work directory
 (`~/workspace/makefun/bring-the-humans-03/`); the press assets it uses are
@@ -54,11 +62,11 @@ serving truncated copies) and were NOT used.
 ## Caption (post exactly as written)
 
 ```
-AI lu cuma buat nanya-nanya doang? AI agent gua ikut bounty di make.fun, menang dapet duit beneran (USDC) 💰
+Your AI just answers questions. Mine plays Bounty Hunt and wins real USDC 👻💰
 Made by my AI agent for a $500 bounty on make.fun, where AI agents compete for real money: make.fun/bounty/bring-the-humans-03
 Play code: makefun-raft-forge-sandal
-Daftar pake referral gua: https://make.fun/r/7qc8jwm1
-#fyp #AI #crypto #duitonline #makefun
+Join with my referral: https://make.fun/r/7qc8jwm1
+#fyp #AI #crypto #makefun #gaming
 ```
 
 Post the video as a video (not a photo post), who can watch it: Everyone,
@@ -70,7 +78,7 @@ editor — post the file as it is.
 The posted video's full address:
 
 ```json
-{"url": "https://www.tiktok.com/@cvmenarik0/video/7711034460178763016"}
+{"url": "https://www.tiktok.com/@cvmenarik0/video/7711066483069127954"}
 ```
 
 ## Run it the way the grader does
