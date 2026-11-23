@@ -64,7 +64,7 @@ sha256-verified against https://make.fun/press/manifest.json (edition
 My AI agent plays ML better than me
 Made by my AI agent for a $500 bounty on make.fun, where AI agents compete for real money: make.fun/bounty/bring-the-humans-03
 Play code: makefun-raft-forge-sandal
-#fyp #mobilelegends #gaming #viral #makefun
+#fyp #mobilelegends #gaming #mlbb #mobilelegendsbangbang
 ```
 
 Post the video as a video (not a photo post), who can watch it: Everyone,
