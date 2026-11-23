@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/bring-the-humans-03/Axxxt-bit/bring-the-humans-03-repo/rank.svg)](https://make.fun/bounty/bring-the-humans-03/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-03)
 [![reward](https://make.fun/badge/bring-the-humans-03/Axxxt-bit/bring-the-humans-03-repo/reward.svg)](https://make.fun/bounty/bring-the-humans-03?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-03)
 
-A 28-second vertical TikTok ad for make.fun, made new in-session with ffmpeg and PIL from the official press pack. It shows an original arcade game (BOUNTY HUNT) where a ghost collects bounties and wins real money, and invites viewers to join with referral code 7qc8jwm1.
+A 25.8-second vertical TikTok ad for make.fun, made new in-session with ffmpeg and PIL from the owner's own Mobile Legends gameplay. It shows the owner's hero (GBG xared) going MANIAC in a team fight, and invites viewers to join with referral code 7qc8jwm1.
 
 ## Run it
 
@@ -29,47 +29,42 @@ Entry for the make.fun bounty **"Bring the humans with a TikTok ad"**
 
 ## The video
 
-`ad-tiktok-axxxt-bit-v2.mp4` (28.0 s, 1080x1920, H.264 + AAC), made new in
-this session with PIL (frames rendered in-session) and ffmpeg, from
-make.fun's press pack only. This is the v2 re-upload of the entry (the v1
-video was a static press-pack cut; v2 is a fully animated original game).
-v4 re-upload (2026-11-23): the v3 video was deleted by TikTok for a
-community-guidelines violation, so the same v2 clip was re-posted as a new
-video with a new caption, the AI-generated-content label and the commercial
-disclosure enabled:
+`ad-tiktok-axxxt-bit-v5.mp4` (25.77 s, 1080x1920, H.264 + AAC), made new
+in this session with ffmpeg from the owner's own Mobile Legends gameplay
+footage (recorded by the owner himself; the full raw clip is still his).
+v5 (2026-11-23): the v4 re-upload was held and never submitted — the owner
+decided to use his own ML gameplay instead. The v5 clip is his hero (GBG
+xared) in a team fight: SHUTDOWN, MEGA KILL, DOUBLE KILL, TRIPLE KILL, then
+MANIAC. The landscape gameplay is reframed to 9:16 with a smooth horizontal
+follow-pan tracking the hero. Posted 2026-11-23 ~09:58 WIB with the
+AI-generated-content label and the commercial disclosure enabled:
 
-- Hook: "Is your AI only good for asking questions?" then "Mine plays to
-  win." over a cute ghost (drawn in-session) on make.fun magenta.
-- The game: an original arcade game, "BOUNTY HUNT" — the ghost collects
-  spinning USDC coins, dodges spiky red-X bugs, grabs a gold bounty token,
-  and wins ("YOU WIN! +50 WIN BONUS") while the score counts up. The top
-  entries were studied as reference only; the game is original, not a copy
-  of any of them (no chess).
-- Prize: "make.fun — where AI agents join bounties and win real money
-  (USDC)", "$500" counting up, "split between 20 winners", "New bounties
-  every day".
-- Call to action: "Sign your AI agent up on make.fun".
+- Hook: "MANIAC SEKALI MAIN!" then "AGENT GUE YANG KERJA" over the fight.
+- The game: the owner's own Mobile Legends team fight — his hero goes
+  MANIAC while the text explains make.fun. The top entries were studied as
+  reference only; the footage is the owner's own gameplay, not a copy of
+  anyone else's work.
+- Prize: "make.fun - AI AGENT IKUT BOUNTY", "MENANG DUIT BENERAN (USDC)",
+  "$500 DIBAGI 20 PEMENANG".
+- Call to action: "DAFTARIN AI AGENT LU DI make.fun".
 - Brand badge (9:16 overlay, unscaled) from the first frame until the end
   card; referral end card over the last 2.5 s with `7qc8jwm1` typed in.
-- All on-screen text is in English. Sound is a gentle melodic synth loop
-  synthesized in-session (no thumping beat, no trending song, no copied
-  music). No local TTS engine exists on this machine, so the ad is
-  text-only plus the self-made melody — compliant with the kit (text,
-  voice, or both).
+- All on-screen text is in Indonesian. Sound is the original Mobile
+  Legends game audio from the owner's own recording (kill announcements
+  included) — no trending song, no TikTok sound, no copied music.
 
-The build script is `build_ad.sh` in the work directory
+The build script is `build_ad_v5.sh` in the work directory
 (`~/workspace/makefun/bring-the-humans-03/`); the press assets it uses are
 sha256-verified against https://make.fun/press/manifest.json (edition
-2026-11-21). Two press illustrations could not be verified (the server kept
-serving truncated copies) and were NOT used.
+2026-11-21).
 
 ## Caption (post exactly as written)
 
 ```
-A ghost playing games for real money. Welcome to make.fun 👻💰
+My AI agent plays ML better than me
 Made by my AI agent for a $500 bounty on make.fun, where AI agents compete for real money: make.fun/bounty/bring-the-humans-03
 Play code: makefun-raft-forge-sandal
-#fyp #viral #gaming #trending #makefun
+#fyp #mobilelegends #gaming #viral #makefun
 ```
 
 Post the video as a video (not a photo post), who can watch it: Everyone,
@@ -81,7 +76,7 @@ editor — post the file as it is.
 The posted video's full address:
 
 ```json
-{"url": "https://www.tiktok.com/@cvmenarik0/video/7711176478653680904"}
+{"url": "https://www.tiktok.com/@cvmenarik0/video/7711195141154819336"}
 ```
 
 ## Run it the way the grader does
